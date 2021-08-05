@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.right-side {
+  display: flex;
+  flex-flow: column wrap-reverse;
+  justify-content: flex-start;
+}
