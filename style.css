@@ -5,10 +5,34 @@
 .column {
   flex: 50%;
   padding: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
 }
 
 .right-side {
   display: flex;
-  flex-flow: column wrap-reverse;
-  justify-content: flex-start;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+.login-window {
+  display: flex;
+  justify-content: space-around;
+}
+.twit-icon {
+  display: block;
+}
+.header1 {
+  display: block;
+}
+.header2 {
+  display: block;
+}
+.signup {
+  display: block;
+}
+.login {
+  display: block;
+  border-radius: 25px;
+  border: 2px solid rgba(29, 161, 242, 1);
 }
